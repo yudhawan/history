@@ -1,4 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right top, #6d4b26, #684d24, #634e24, #5e5023, #595124, #545225, #505227, #4b5329, #46532c, #40542f, #3b5432, #365436);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
