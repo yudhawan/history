@@ -43,13 +43,13 @@ function Situs() {
         <div className={`w-full flex space-y-4 lg:space-y-0 lg:space-x-6 flex-col lg:flex-row p-6 ${selected?'bg-none':'bg-slate-200'} rounded-md `}>
           {situs?<Candi handleselected={handleselected} selected={selected} situs={situs} handleSitus={handleSitus} />:kondisi?<Kondisi handleselected={handleselected} selected={selected} kondisi={kondisi} handleKondisi={handleKondisi} />:<><div className='cursor-pointer active:animate-ping flex flex-col justify-center items-center' onClick={handleSitus}>
             <div className='w-60 h-32'>
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa0v89mEk8DgtJcWBP4h_Fz2zXEBwGMgkVsw&usqp=CAU" className='w-full h-full rounded-sm'/>
+              <img src="https://i.pinimg.com/originals/da/3d/dd/da3ddd7691ad925dd440414489195b0a.jpg" className='w-full h-full rounded-sm'/>
             </div>
               <div className='bg-[#B48E00] text-white py-1 px-2 text-center w-60 h-auto rounded-sm font-semibold text-sm'>Situs Peninggalan Kerajaan Singhasari di Malang</div>
           </div>
           <div className='cursor-pointer active:animate-ping flex flex-col justify-center items-center' onClick={handleKondisi}>
             <div className='w-60 h-32'>
-              <img src="https://www.pngkey.com/png/detail/191-1919505_asian-temple-royalty-free-vector-clip-art-illustration.png" className='w-full h-full rounded-sm'/>
+              <img src="https://1.bp.blogspot.com/-5iM8bU8zyzw/XRLCWPiZiEI/AAAAAAAARhU/b91DVuFHWOkuSf2vimNqn2OQNm0n-5HmQCLcBGAs/s1600/118678.jpg" className='w-full h-full rounded-sm'/>
             </div>
             <div className='bg-[#B48E00] text-white py-1 px-2 text-center w-60 rounded-sm font-semibold '>Kondisi Kekinian Situs </div>
           </div>
