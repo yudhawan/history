@@ -13,7 +13,7 @@ export default function Main(){
         <div className="w-full bg-banner_mobile lg:bg-banner lg:bg-cover h-screen">
         <BrowserRouter>
         <Header/>
-        <div className="mt-16">
+        <div className="mt-10">
             <Routes>
                 <Route path="/" element={<Home/>} />
                 <Route path="/sejarah" element={<History/>} />

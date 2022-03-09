@@ -8,6 +8,8 @@ import Referensi from '../components/situs/Referensi'
 import Books from '../books.png'
 function Situs() {
   const navigate = useNavigate()
+  const [selected,setselected] = React.useState('')
+  const handleselected = (sel) => setselected(sel)
   const [situs,setsitus] = useState(false)
   const [kondisi, setkondisi] = useState(false)
   const [referensi, setreferensi] = useState(false)
@@ -21,7 +23,11 @@ function Situs() {
         {referensi&&<Referensi show={referensi} handleReferensi={handleReferensi} />}
         </>:
       
-      <div className='flex flex-col lg:w-auto lg:px-10 w-80 h-auto py-8 rounded-lg bg-transparent backdrop-blur-md justify-center items-center space-y-2'>
+      <div className={`flex flex-col lg:w-auto lg:px-10 w-80 h-auto py-8 ${selected?'':'bg-transparent backdrop-blur-md'} rounded-lg  justify-center items-center space-y-2`}>
+        {
+          selected?<></>:
+          <>
+        
         <div className={`${(situs | kondisi)?'hidden':'block'} w-full flex px-3 justify-between`}>
           <div className='relative self-start px-3 py-1 lg:py-1 lg:px-1 rounded-full bg-[#B48E00] order-first text-white cursor-pointer' onClick={()=> navigate('/')}>
             <div className='flex justify-center items-center px-3 py-1 lg:py-0 lg:px-2 rounded-full bg-[#B48E00]'><FontAwesomeIcon icon={faAngleLeft} size={'lg'} /> </div>
@@ -32,8 +38,10 @@ function Situs() {
           setsitus(false)
           setkondisi(false)
         }}><FontAwesomeIcon icon={faAngleLeft} size={'lg'} /> </div>
-        <div className={`w-full flex space-y-4 lg:space-y-0 lg:space-x-6 flex-col lg:flex-row p-6 bg-slate-200 rounded-md `}>
-          {situs?<Candi situs={situs} handleSitus={handleSitus} />:kondisi?<Kondisi kondisi={kondisi} handleKondisi={handleKondisi} />:<><div className='cursor-pointer active:animate-ping flex flex-col justify-center items-center' onClick={handleSitus}>
+          </>
+        }
+        <div className={`w-full flex space-y-4 lg:space-y-0 lg:space-x-6 flex-col lg:flex-row p-6 ${selected?'bg-none':'bg-slate-200'} rounded-md `}>
+          {situs?<Candi handleselected={handleselected} selected={selected} situs={situs} handleSitus={handleSitus} />:kondisi?<Kondisi handleselected={handleselected} selected={selected} kondisi={kondisi} handleKondisi={handleKondisi} />:<><div className='cursor-pointer active:animate-ping flex flex-col justify-center items-center' onClick={handleSitus}>
             <div className='w-60 h-32'>
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa0v89mEk8DgtJcWBP4h_Fz2zXEBwGMgkVsw&usqp=CAU" className='w-full h-full rounded-sm'/>
             </div>
