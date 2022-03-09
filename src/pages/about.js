@@ -13,14 +13,14 @@ function About() {
           </div>
           <div className='font-semibold text-white text-xl bg-[#FF8C34] px-2 rounded-md'>About</div>
         </div>
-        <div className='flex md:flex-row flox-col bg-white rounded-lg lg:p-4 p-2 lg:space-x-4 lg:w-[50vw]'>
-          <div className='flex-col w-[25vw]'>
-            <div className='underline underline-offset-2 text-xl md:text-2xl text-orange-600'>About</div>
+        <div className='flex lg:flex-row flex-col w-full bg-white rounded-lg lg:p-4 p-2 lg:space-x-4 lg:w-[50vw]'>
+          <div className='flex-col w-full lg:w-[25vw]'>
+            <div className='underline underline-offset-2 text-xl lg:text-2xl text-orange-600'>About</div>
             <p>Website Gasing: Galaxy of Singhasari adalah website pembelajaran khusus untuk membahas materi Kerajaan Singhasari. Website ini menyediakan materi berupa narasi, foto, video pembelajaran, dan juga section kuis untuk evaluasi.</p>
             <br></br>
             <p>Website Gasing dibuat pada Mei 2021 &copy; Nabilatus Saidah, Mahasiswi Pendidikan Sejarah 2017 Universitas Negeri Malang.</p>
           </div>
-          <div className='overflow-hidden rounded-tl-xl rounded-br-xl w-[25vw]'>
+          <div className='overflow-hidden rounded-tl-xl rounded-br-xl w-full lg:w-[25vw]'>
             <img src="https://jejakpiknik.com/wp-content/uploads/2017/10/@yovi_507.jpg" className='w-full h-full' />
           </div>
         </div>
