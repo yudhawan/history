@@ -33,7 +33,7 @@ function Kronologi() {
         <div className='flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-4'>
         <div className='cursor-pointer active:animate-ping' onClick={handleSejarah}>
           <div className='w-60 h-32'>
-            <img src={War3} className='w-full h-full rounded-sm'/>
+            <img src="https://cdn-cas.orami.co.id/parenting/images/Candi_Singosari_instagram.com_harrismalang.width-800.jpg" className='w-full h-full rounded-sm'/>
           </div>
           <div className='bg-white text-orange-500 py-1 px-2 text-center w-60 h-auto rounded-sm font-semibold'>Garis Besar Perkembangan Singhasari</div>
         </div>
