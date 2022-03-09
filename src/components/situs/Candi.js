@@ -37,7 +37,7 @@ function Candi({situs,handleSitus}) {
                                 {val.images&&val.images.map((img,index)=>(
                                     <div key={index} className='w-72 h-64 lg:float-right ml-2 rounded-md relative'>
                                         <img className={`w-72 h-64 rounded-md`} src={img.url} />
-                                        <div className='text-sm font-semibold absolute top-1 text-center rounded-full bg-white px-1'>{img.name}</div>
+                                        <div className='text-sm text-black font-semibold absolute top-1 text-center rounded-full bg-white px-1'>{img.name}</div>
                                     </div>
                                 ))}
                                 
