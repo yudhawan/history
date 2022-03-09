@@ -10,11 +10,11 @@ function Home() {
         <div className='items-center space-x-2 font-semibold flex justify-between text-xl lg:text-2xl text-[#DFE0DF] lg:ml-32  font-Ubuntu'>
           <div className='bg-[#EE8614] order-1 rounded-full w-6 h-6 '></div>
           <div className='bg-[#EE8614] order-2 rounded-full w-8 h-8 '></div>
-          <div className='border-4 border-[#EE8614] order-3 px-2 py-3'>WELCOME TO GASING</div>
+          <div className='border-4 border-[#EE8614] order-3 px-2 py-3 bg-amber-800'>WELCOME TO GASING</div>
           <div className='bg-[#EE8614] order-4 rounded-full w-8 h-8 '></div>
           <div className='bg-[#EE8614] order-5 rounded-full w-6 h-6 '></div>
         </div>
-        <div className='bg-[#2F4858] rounded-sm flex flex-wrap justify-center w-[90vw] lg:justify-center lg:w-[35%] lg:ml-20 mt-10'>
+        <div className='bg-[#2F4858] rounded-xl flex flex-wrap justify-center w-[90vw] lg:justify-center lg:w-[35%] lg:ml-20 mt-10'>
           <div className='cursor-pointer transition duration-300 ease-out hover:-translate-y-1 hover:scale-110 text-xl mx-2 my-2 w-32 text-center bg-[#EE5D5A] rounded-lg p-4 items-center' onClick={()=>navigate('/sejarah')}>
             <div className='text-white'><FontAwesomeIcon icon={faLandmark}/></div>
             <div className='text-white'>Sejarah</div>

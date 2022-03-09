@@ -26,7 +26,7 @@ function Kondisi() {
       <div className={`${selected?'block fixed':'hidden'} top-0 self-center flex justify-center bg-transparent backdrop-blur-sm  w-full h-full lg:bg-opacity-70 bg-opacity-80 bg-black`}>
         <div className='bg-gray-400 rounded-full w-8 h-8 justify-center items-center flex hover:animate-spin absolute cursor-pointer lg:-right-5 lg:-top-5 xl:-right-5 -right-5 -top-5 xl:-top-5 text-rose-700' onClick={()=>setselected('')}><FontAwesomeIcon icon={faXmark} size={'lg'} /></div>
         <div className='bg-white rounded-md w-[90vw] h-[100vh] lg:h-[80vh] '>
-            <div className='text-justify lg:font-Roboto overflow-auto p-4 space-y-2 w-full h-full '>
+            <div className='text-justify font-Ubuntu overflow-auto p-4 space-y-2 w-full h-full '>
                 {
                     kondisi.filter(val=> val.title===selected).map((val,index)=>{
                         return (

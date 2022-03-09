@@ -52,9 +52,9 @@ function Quiz() {
             </>:
               <>
               <div className='flex justify-between mt-4 lg:mt-0'>
-                <div className='text-3xl underline underline-offset-4 text-orange-500 font-semibold '>Quiz</div>
-                <div className='flex justify-center items-center px-3 py-1 lg:py-0 lg:px-3 rounded-full bg-[#FF8C34] order-first text-white cursor-pointer' onClick={()=> navigate('/')}><FontAwesomeIcon icon={faAngleLeft} size={'lg'} /> </div>
-                <div className='flex justify-center items-center px-3 py-1 lg:py-0 lg:px-3 rounded-md bg-[#FF8C34] order-last text-white'><FontAwesomeIcon icon={faListCheck} /></div>
+                <div className='text-3xl underline underline-offset-4 text-[#47557E] font-semibold '>Quiz</div>
+                <div className='flex justify-center items-center px-3 py-1 lg:py-0 lg:px-3 rounded-full bg-[#47557E] order-first text-white cursor-pointer' onClick={()=> navigate('/')}><FontAwesomeIcon icon={faAngleLeft} size={'lg'} /> </div>
+                <div className='flex justify-center items-center px-3 py-1 lg:py-0 lg:px-3 rounded-md bg-[#47557E] order-last text-white'><FontAwesomeIcon icon={faListCheck} /></div>
               </div>
               <div className='mt-5 font-Roboto font-semibold'>Mari Melatih Pengetahuan Kalian Tentang Kerajaan Singhasari</div>
               <div className='flex-col space-y-1'>
@@ -70,7 +70,7 @@ function Quiz() {
         {/* quis */}
         <div className={`${show?'block':'hidden'}`}>
           <div className={`w-full ${show?'h-[70vh] overflow-y-auto':'h-auto'} flex p-4 flex-col px-3 space-y-10 bg-slate-200`}>
-          <div className='flex fixed justify-between w-[80] h-[10vh] lg:w-[90vw] px-10 bg-transparent backdrop-blur-md'>
+          <div className='flex fixed justify-between w-[80vw] sm:w-[75vw]  h-[10vh] lg:w-[85vw] xl:w-[85vw] px-10 bg-transparent backdrop-blur-md'>
               <div className='text-gray-500 font-semibold'>Jumlah Soal {question&&question.length}</div>
               <div className='text-gray-500 font-semibold'>Selamat Mengerjakan</div>
               <button onClick={handleSubmit} className="bg-green-600 rounded-md px-2 h-8 lg:py-1 text-white font-medium">Submit</button>
