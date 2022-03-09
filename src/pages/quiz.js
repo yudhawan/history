@@ -13,14 +13,17 @@ function Quiz() {
   const radio = useRef(null)
   const [valid,setvalid] = useState('')
   const [show,setshow] = useState(false)
+  const [showinfo,setshowinfo] = useState(false)
   function handleMasuk(){
     if(info.nama==='' || info.nama===null) return setvalid('Nama tidak boleh kosong')
     if(info.email==='' || info.email===null) return setvalid('Email tidak boleh kosong')
     setvalid('')
     setshow(!show)
+    setshowinfo(!showinfo)
   }
   function handleSubmit(){
     let total = question.filter(val => val.correct===true).length
+    console.log(total)
     setnilai(total)
     setshow(!show)
   }
@@ -33,7 +36,21 @@ function Quiz() {
           <div className='flex flex-col space-y-3'>
             
             {
-              (nilai===0)?<>
+              showinfo?<>
+              <div className='text-base flex-col'>
+                <div className='text-lg font-semibold text-orange-900'>{info.nama}</div>
+                <div className='text-lg font-semibold text-orange-900'>{info.email}</div>
+              </div>
+              <div className='flex'>
+                <div className='text-2xl text-orange-500 font-semibold'>Nilai Anda : </div>
+                <div className='text-3xl font-semibold text-bold text-orange-700'>{nilai&&nilai*10}</div>
+              </div>
+              <div className='flex space-x-1'>
+                <button className='px-3 py-1 rounded-md text-white font-semibold bg-rose-700' onClick={()=> navigate('/')}>Keluar</button>
+              </div>
+              
+            </>:
+              <>
               <div className='flex justify-between mt-4 lg:mt-0'>
                 <div className='text-3xl underline underline-offset-4 text-orange-500 font-semibold '>Quiz</div>
                 <div className='flex justify-center items-center px-3 py-1 lg:py-0 lg:px-3 rounded-full bg-[#FF8C34] order-first text-white cursor-pointer' onClick={()=> navigate('/')}><FontAwesomeIcon icon={faAngleLeft} size={'lg'} /> </div>
@@ -46,19 +63,6 @@ function Quiz() {
               </div>
               {valid&&<div className='text-center text-rose-600 font-semibold'>{valid}</div>}
               <button className='bg-green-500 px-4 py-1 rounded-md mt-2 text-white font-semibold' onClick={handleMasuk}>Masuk</button>
-            </>:
-              <>
-              <div className='text-base flex-col'>
-                <div className='text-lg font-semibold text-orange-900'>{info.nama}</div>
-                <div className='text-lg font-semibold text-orange-900'>{info.email}</div>
-              </div>
-              <div className='flex'>
-                <div className='text-2xl text-orange-500 font-semibold'>Nilai Anda : </div>
-                <div className='text-3xl font-semibold text-bold text-orange-700'>{nilai&&nilai*10}</div>
-              </div>
-              <div className='flex space-x-1'>
-                <button className='px-3 py-1 rounded-md text-white font-semibold bg-rose-700' onClick={()=> navigate('/')}>Keluar</button>
-              </div>
               </>
             }
           </div>

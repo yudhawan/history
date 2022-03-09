@@ -7,6 +7,7 @@ module.exports = {
       fontFamily: {
         'Sofia': ['Sofia', 'cursive'],
         'Roboto': ['Roboto', 'sans-serif'],
+        'Ubuntu': ['Ubuntu', 'sans-serif'],
       },
       backgroundImage: {
         'banner_mobile': "url('./candi_mobile.png')",

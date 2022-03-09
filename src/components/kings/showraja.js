@@ -12,14 +12,14 @@ function Showraja({raja, handleRaja}) {
                     teori.filter(val=> val.title===raja).map((val,index)=>{
                         return (
                             <>
-                                <p key={index} className='text-xl font-bold text-center'>{val.title}</p>
+                                <p key={index} className='text-xl font-bold text-center font-Roboto'>{val.title}</p>
                                 {val.image&&val.image.map((img,index)=>(
                                     <div key={index} className='w-72 h-64 lg:float-right ml-2 rounded-md relative'>
                                         <img className={`w-72 h-64 rounded-md`} src={img.url} />
                                         <div className='text-sm font-semibold absolute top-1 text-center rounded-full bg-white px-1'>{img.name}</div>
                                     </div>
                                 ))}
-                                <p>{val.content}</p>
+                                <p className='font-Ubuntu font-semibold'>{val.content}</p>
                             </>
                         )
                     })
