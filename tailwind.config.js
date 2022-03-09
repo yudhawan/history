@@ -8,6 +8,7 @@ module.exports = {
         'Sofia': ['Sofia', 'cursive'],
         'Roboto': ['Roboto', 'sans-serif'],
         'Ubuntu': ['Ubuntu', 'sans-serif'],
+        'Poppins': ['Poppins', 'sans-serif'],
       },
       backgroundImage: {
         'banner_mobile': "url('./candi_mobile.png')",

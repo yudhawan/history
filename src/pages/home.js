@@ -10,7 +10,7 @@ function Home() {
         <div className='items-center space-x-2 font-semibold flex justify-between text-xl lg:text-2xl text-[#DFE0DF] lg:ml-32  font-Ubuntu'>
           <div className='bg-[#EE8614] order-1 rounded-full w-6 h-6 '></div>
           <div className='bg-[#EE8614] order-2 rounded-full w-8 h-8 '></div>
-          <div className='border-4 border-[#EE8614] order-3 px-2 py-3 bg-amber-800'>WELCOME TO GASING</div>
+          <div className='border-4 border-[#EE8614] order-3 px-2 py-3 bg-amber-800 font-Poppins'>WELCOME TO GASING</div>
           <div className='bg-[#EE8614] order-4 rounded-full w-8 h-8 '></div>
           <div className='bg-[#EE8614] order-5 rounded-full w-6 h-6 '></div>
         </div>
