@@ -4,17 +4,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        orange:'#FE9012',
-        maroon: '#822A00',
-        navy: '#006B5F',
-        sky: '#62BAAC',
+      fontFamily: {
+        'Sofia': ['Sofia', 'cursive'],
+        'Roboto': ['Roboto', 'sans-serif'],
       },
       backgroundImage: {
-        'banner': "url('./banner.jpg')",
-        'banner_mobile': "url('./banner_mobile.png')",
+        'banner_mobile': "url('./candi_mobile.png')",
+        'banner': "url('./candi2.png')",
       }
     },
   },
   plugins: [],
 }
+// Roborto 300,400,500
