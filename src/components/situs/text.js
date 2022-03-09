@@ -43,7 +43,7 @@ export const kondisi = [
     {
         title:'Arca Dwarapala',
         description:"Lokasi Arca Dwarapala hanya berjarak sekitar 200m dari Candi Singosari. Di sekitar situs ini tidak terdapat toko-toko maupun penjual keliling seperti yang ada di sekitar Candi Singosari. Rumah-rumah warga berada tepat mengelilingi situs Arca Dwarapala, sehingga keberadaan situs ini berada di tengah perumahan warga setempat. Kedua Arca Dwarapala ini berada masing-masing di tepi jalan dengan dibatasi oleh taman luas dan pagar pembatas. Adapun di luar pagar sudah berhadapan langsung dengan rumah-rumah warga. ",
-        images:[{name:'Taman di sekeliling',url:sumberair},{name:'Pohon-pohon di sekitar', url: pohonarca}]
+        images:[{name:'Arca Dwarapala',url:'https://erctrans.com/wp-content/uploads/2020/02/arca-dwarapala-candi-singosari.jpg'},{name:'Taman di sekeliling',url:tamanarca},{name:'Pohon-pohon di sekitar', url: pohonarca}]
     },
     {
         title:'Candi Sumberawan',

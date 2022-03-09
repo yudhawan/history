@@ -18,7 +18,14 @@ function History() {
   const handleReferensi=()=> setreferensi(!referensi)
   return (
     <div className='flex justify-center items-center'>
-      <div className='flex flex-col lg:w-auto lg:px-10 w-80 h-auto py-8 rounded-lg bg-transparent backdrop-blur-md justify-center items-center space-y-2'>
+      {
+        (sejarah || video || referensi)?<>
+        {sejarah&&<Sejarah show={sejarah} handleSejarah={handleSejarah}/>}
+        {video&&<Video show={video} handleVideo={handleVideo} />}
+        {referensi&&<Referensi show={referensi} handleReferensi={handleReferensi} />}
+        </>:
+      
+      <div className={`${sejarah?'hidden':'block'}flex flex-col lg:w-auto lg:px-10 w-80 h-auto py-8 rounded-lg bg-transparent backdrop-blur-md justify-center items-center space-y-2`}>        
         <div className='w-full flex px-3 justify-between'>
           <div className='font-semibold text-white text-xl px-2 rounded-md flex space-x-1 cursor-pointer' onClick={()=> navigate('/')}>
             <div className='flex justify-center items-center px-3 py-1 lg:py-0 lg:px-2 rounded-full bg-[#FF8C34]'><FontAwesomeIcon icon={faAngleLeft} size={'lg'} /> </div>
@@ -46,9 +53,7 @@ function History() {
         </div>
         </div>
       </div>
-      {sejarah&&<Sejarah show={sejarah} handleSejarah={handleSejarah}/>}
-      {video&&<Video show={video} handleVideo={handleVideo} />}
-      {referensi&&<Referensi show={referensi} handleReferensi={handleReferensi} />}
+      }
     </div>
   )
 }

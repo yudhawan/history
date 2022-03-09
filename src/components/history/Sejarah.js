@@ -3,8 +3,8 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faXmark} from '@fortawesome/free-solid-svg-icons'
 function Sejarah({show, handleSejarah}) {
   return (
-    <div className={`${show?'block fixed':'hidden'} top-0 self-center flex justify-center bg-transparent backdrop-blur-sm items-center w-full h-full lg:bg-opacity-70 bg-opacity-80 bg-black`}>
-        <div className='bg-black rounded-md w-[90vw] h-[80vh]'>
+    <div className={`${show?'block fixed':'hidden'} top-0 self-center flex justify-center  items-center w-full h-full lg:bg-opacity-70 bg-opacity-80 bg-black`}>
+        <div className='bg-gray-500 rounded-md w-[90vw] h-[80vh] bg-opacity-20'>
           <div className='bg-gray-400 rounded-full w-8 h-8 justify-center float-right items-center flex hover:animate-spin cursor-pointer  text-rose-700' onClick={handleSejarah}><FontAwesomeIcon icon={faXmark} size={'lg'} /></div>
           <div className='text-justify overflow-auto p-4 space-y-2 w-full h-[70vh] font-semibold font-Ubuntu text-white'>
               <p>Singhasari merupakan salah satu kerajaan Hindu-Buddha yang berkembang di pulau Jawa pada abad ke-13. Kerajaan ini didirikan oleh Ken Angrok,  dan dalam perkembangannya kerajaan ini berhasil menjadi  salah satu kerajaan paling berpengaruh di Pulau Jawa, bahkan Nusantara. Kekuasaan Singhasari terdengar hingga Kerajaan Mongol dari Mongolia yang pernah menguasai dataran Cina.</p>
