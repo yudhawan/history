@@ -5,9 +5,9 @@ import {teori} from './text'
 function Showraja({raja, handleRaja}) {
   return (
     <div className={`${raja?'block fixed':'hidden'} top-0 self-center flex justify-center bg-transparent backdrop-blur-sm items-center w-full h-full lg:bg-opacity-70 bg-opacity-80 bg-black`}>
-        <div className='bg-gray-400 rounded-full z-10 w-8 h-8 justify-center items-center flex hover:animate-spin absolute cursor-pointer -mt-[79vh] -mr-[88vw] lg:-mr-[90vw] text-rose-700' onClick={handleRaja}><FontAwesomeIcon icon={faXmark} size={'lg'} /></div>
         <div className='bg-white rounded-md w-[90vw] h-[80vh] '>
-            <div className='text-justify lg:font-Roboto overflow-auto p-4 space-y-2 w-full h-full '>
+            <div className='bg-gray-400 rounded-full w-8 h-8 justify-center float-right items-center flex hover:animate-spin cursor-pointer  text-rose-700' onClick={handleRaja}><FontAwesomeIcon icon={faXmark} size={'lg'} /></div>
+            <div className='text-justify lg:font-Roboto overflow-auto p-4 space-y-2 w-full h-[75vh] '>
                 {
                     teori.filter(val=> val.title===raja).map((val,index)=>{
                         return (
