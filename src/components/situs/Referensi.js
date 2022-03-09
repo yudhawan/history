@@ -6,7 +6,7 @@ function Referensi({show,handleReferensi}) {
     <div className={`${show?'block fixed':'hidden'} top-0 self-center flex justify-center bg-transparent backdrop-blur-sm items-center w-full h-full lg:bg-opacity-70 bg-opacity-80 bg-black`}>
       <div className='bg-gray-500 bg-opacity-20 rounded-md w-[90vw] h-[80vh] sm:h-[70vh] lg:h-[60vh] '>
         <div className='bg-gray-400 rounded-full w-8 h-8 justify-center float-right items-center flex hover:animate-spin cursor-pointer  text-rose-700' onClick={handleReferensi}><FontAwesomeIcon icon={faXmark} size={'lg'} /></div>
-        <div className='text-justify lg:font-Roboto overflow-auto p-4 space-y-2 w-full h-[70vh] sm:h-[65vh] lg:h-[45vh] text-white'>
+        <div className='text-justify font-Ubuntu overflow-auto p-4 space-y-2 w-full h-[70vh] sm:h-[65vh] lg:h-[45vh] text-white'>
           <div className='flex text-left space-x-2 border border-gray-300 rounded-sm p-1'>
             <div className='flex justify-center items-center text-white'><FontAwesomeIcon icon={faCheck} /></div>
             <div className='flex'>
