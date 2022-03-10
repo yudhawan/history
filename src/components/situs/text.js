@@ -6,6 +6,7 @@ import singosari2 from './assets/singosari2.jpg';
 import singosari21 from './assets/singosari21.jpg';
 import singosari3 from './assets/singosari3.jpg';
 import singosari4 from './assets/singosari4.jpg';
+import Arcadwarapala from './assets/arca.jpg'
 export const statues=[
     {
         title: "Candi Kidal",
@@ -15,7 +16,7 @@ export const statues=[
     {
         title: "Candi Jago",
         description:"Candi Jago merupakan candi yang terletak di daerah Tumpang, Malang, Jawa Timur. Candi ini juga merupakan salah satu peninggalan Kerajaan Singhasari, tepatnya merupakan tempat pendharmaan Raja Wisnuwarddhan. Pada sekeliling candi, terdapat sebuah arca yang dikenal sebagai nama Amoghapasa, bentuk Awalokiteswara bertangan delapan, dengan pengikutnya (Poesponegoro dan Notosusanto, 1984: 435).  Terdapat pula arca-arca lain seperti Bhairawa. Beberapa relief penting juga terdapat pada candi ini, diantaranya adalah relief Tantri Kamandaka, relief Ari Dharma, relief Kunjarakarna, relief Parthayajna, relief Ar-junawiwaha, dan relief Kresnayana (Lutfi Ismail, dkk, 2018: 181). Setiawan & Setiawati (2019: 144) menjabarkan detail keseluruhan bangunan Candi Jago. Candi ini berbentuk segi  empat dengan  ukuran 23  m  x  14  meter. Bangunan  candi  menghadap  ke  barat.  Candi  ini  berdiri  di  atas  batur  (alas),  setinggi sekitar satu  meter dan kaki candi  yang  terdiri atas 3 teras bertingkat.  Teras kaki candi berbentuk  semakin  kecil  ke  bagian  atas.  Pada  lantai  pertama  terdapat  selasar  yang dapat dilewati untuk mengelilingi candi. Candi  Jago didirikan sekitar  tahun  1268-1280  M (Setiawan & Setiawati, 2019). Candi  tersebut dibangun   sebagai   penghormatan   kepada   Sri   Jaya   Wisnuwardana.   Candi    Jago merupakan  salah  satu  peninggalan  kerajaan  Singasari  dan  bercorak  Hindu  Budha. Adapun sisi menarik dari Candi Jago adalah keunikan relief mereka yang menggambarkan cerita fabel (hewan).",
-        images: [{name:'Candi Jago',url:'https://www.pegipegi.com/travel/wp-content/uploads/2018/10/candi-jago-malang.jpg'}]
+        images: [{name:'Candi Jago',url:'https://www.pegipegi.com/travel/wp-content/uploads/2018/10/candi-jago-malang.jpg'},{name:'Relief Candi Jago',url:'https://ngalam.co/wp-content/uploads/2017/02/potongan-relief-Mahabharata-di-Candi-Jago.jpg'}]
     },
     {
         title: "Candi Singosari",
@@ -25,7 +26,7 @@ export const statues=[
     {
         title: "Arca Dwarapala",
         description:"Arca Dwarapala merupakan salah satu arca terbesar di Indonesia. Arca ini berjumlah dua arca dengan bentuk tubuh yang berukuran besar dan ekspresi yang cukup menakutkan. Dwarapala Singhasari ini terletak hanya sekitar 200 m dari letak candi Singosari, sehingga dapat dikatakan bahwa arca ini masih satu kompleks dengan candi tersebut. Arca ini juga ditemukan oleh Nicolaus Engelhardt pada tahun 1803, bersamaan ketika beliau menemukan Candi Singosari.   Dua arca yang dibuat dari batu monolitik tersebut memiliki ketinggian 3,70 meter (Mulyadi, dkk, 2015: 38). Sejatinya arca Dwarapala memang merupakan patung penjaga sebelum memasuki wilayah kerajaan. Hal ini sesuai dengan lokasi ditemukannya arca yang berada di sekitar Candi Singosari. Arca yang berada di selatan jalan yang menghadap ke utara posisi tangan kanan memegang gada, sedangkan tangan kiri diletakkan di lutut dengan kondisi berjongkok. Sementara itu, untuk arca yang menghadap selatan, tangan kanannya memberikan kode dua jari, sedangkan tangan kirinya memegang gada yang dibalik. Selain fungsinya yang merupakan patung penjaga, arca ini juga berfungsi untuk mengingatkan rakyat rajin beribadah.",
-        images: [{name:'Arca Dwarapala',url:'https://erctrans.com/wp-content/uploads/2020/02/arca-dwarapala-candi-singosari.jpg'},{name:'Arca Dwarapala',url:'https://kebudayaan.kemdikbud.go.id/bpcbjatim/wp-content/uploads/sites/33/2020/11/IMGP6881-1024x768.jpg'}]
+        images: [{name:'Arca Dwarapala',url:'https://erctrans.com/wp-content/uploads/2020/02/arca-dwarapala-candi-singosari.jpg'},{name:'Arca Dwarapala',url:Arcadwarapala}]
     },
     {
         title: "Candi Sumberawan",
@@ -43,7 +44,7 @@ export const kondisi = [
     {
         title:'Arca Dwarapala',
         description:"Lokasi Arca Dwarapala hanya berjarak sekitar 200m dari Candi Singosari. Di sekitar situs ini tidak terdapat toko-toko maupun penjual keliling seperti yang ada di sekitar Candi Singosari. Rumah-rumah warga berada tepat mengelilingi situs Arca Dwarapala, sehingga keberadaan situs ini berada di tengah perumahan warga setempat. Kedua Arca Dwarapala ini berada masing-masing di tepi jalan dengan dibatasi oleh taman luas dan pagar pembatas. Adapun di luar pagar sudah berhadapan langsung dengan rumah-rumah warga. ",
-        images:[{name:'Arca Dwarapala',url:'https://erctrans.com/wp-content/uploads/2020/02/arca-dwarapala-candi-singosari.jpg'},{name:'Taman di sekeliling',url:tamanarca},{name:'Pohon-pohon di sekitar', url: pohonarca}]
+        images:[{name:'Arca Dwarapala',url:'https://erctrans.com/wp-content/uploads/2020/02/arca-dwarapala-candi-singosari.jpg'},{name:'Taman di sekeliling',url:tamanarca},{name:'Pohon-pohon di sekitar', url: pohonarca},{name:'Arca Dwarapala',url:Arcadwarapala}]
     },
     {
         title:'Candi Sumberawan',

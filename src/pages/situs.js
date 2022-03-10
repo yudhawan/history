@@ -49,7 +49,7 @@ function Situs() {
           </div>
           <div className='cursor-pointer active:animate-ping flex flex-col justify-center items-center' onClick={handleKondisi}>
             <div className='w-60 h-32'>
-              <img src="https://1.bp.blogspot.com/-5iM8bU8zyzw/XRLCWPiZiEI/AAAAAAAARhU/b91DVuFHWOkuSf2vimNqn2OQNm0n-5HmQCLcBGAs/s1600/118678.jpg" className='w-full h-full rounded-sm'/>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Candi_Singosari_B.JPG" className='w-full h-full rounded-sm'/>
             </div>
             <div className='bg-[#B48E00] text-white py-1 px-2 text-center w-60 rounded-sm font-semibold '>Kondisi Kekinian Situs </div>
           </div>

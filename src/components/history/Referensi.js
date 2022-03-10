@@ -22,6 +22,12 @@ function Referensi({show,handleReferensi}) {
               <p className='italic'>Jakarta: Balai Pustaka Dan Kemendikbud RI [Kementerian Pendidikan Dan Kebudayaan Republik Indonesia].</p></p>
             </div>
           </div>
+          <div className='flex text-left space-x-2 border border-gray-300 rounded-sm p-1'>
+            <div className='flex justify-center items-center text-white'><FontAwesomeIcon icon={faCheck} /></div>
+            <div className='flex'>
+              <p>Saptono Soemarsono. 2021. JELAJAH 349: Babad Singasari  Sejarah Kerajaan Singasari dari Awal Berdiri hingga Keruntuhannya [Video]. YouTube. https://youtu.be/USGIbaNKqQo</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

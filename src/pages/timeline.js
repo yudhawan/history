@@ -24,14 +24,14 @@ function Timeline() {
               setnagara(!nagara)
               }}>
               <div className=' w-40 h-20 lg:w-80 lg:h-40 border-t border-l border-r border-orange-900'><img src={tlnagara} className="w-full h-full " /></div>
-              <div className='text-sm lg:text-lg text-white bg-[#845792] rounded-sm text-center border border-orange-900'>Lini Masa Nagara</div>
+              <div className='text-xs lg:text-lg text-white bg-[#845792] rounded-sm text-center border border-orange-900'>Lini Masa Nagarakrtagama</div>
             </div>
             <div className='hover:opacity-75 cursor-pointer select-none flex-col' onClick={()=>{
               if(nagara) setnagara(false)
               setpararaton(!pararaton)
               }}>
               <div className=' w-40 h-20 lg:w-80 lg:h-40 border-t border-l border-r border-orange-900'><img src={tlpararaton} className="w-full h-full " /></div>
-              <div className='text-sm lg:text-lg text-white bg-[#845792] rounded-sm text-center border border-orange-900'>Lini Masa Pararaton</div>
+              <div className='text-xs lg:text-lg text-white bg-[#845792] rounded-sm text-center border border-orange-900'>Lini Masa Pararaton</div>
             </div>
           </div>
         </div>

@@ -28,6 +28,12 @@ function Referensi({show,handleReferensi}) {
               <p>Hardjowadojo, Pitono. (1965). Kitab Pararaton Terjemahan.</p>
             </div>
           </div>
+          <div className='flex text-left space-x-2 border border-gray-300 rounded-sm p-1'>
+            <div className='flex justify-center items-center text-white'><FontAwesomeIcon icon={faCheck} /></div>
+            <div className='flex'>
+              <p>ASISI Channel. 2021. Revealing the Hideous Secrets of Kertanegara, Java's Conqueror King [Video] YouTube. https://youtu.be/RmHh3a9RnxQ</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
