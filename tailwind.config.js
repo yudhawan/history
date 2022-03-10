@@ -9,6 +9,7 @@ module.exports = {
         'Roboto': ['Roboto', 'sans-serif'],
         'Ubuntu': ['Ubuntu', 'sans-serif'],
         'Poppins': ['Poppins', 'sans-serif'],
+        'Fredoka': ['Fredoka', 'cursive'],
       },
       backgroundImage: {
         'banner_mobile': "url('./candi_mobile.png')",
