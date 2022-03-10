@@ -10,6 +10,8 @@ module.exports = {
         'Ubuntu': ['Ubuntu', 'sans-serif'],
         'Poppins': ['Poppins', 'sans-serif'],
         'Fredoka': ['Fredoka', 'cursive'],
+        'Kaushan': ['Kaushan', 'cursive'],
+        'Aladin': ['Aladin', 'cursive'],
       },
       backgroundImage: {
         'banner_mobile': "url('./candi_mobile.png')",
