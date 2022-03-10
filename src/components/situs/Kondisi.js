@@ -34,7 +34,7 @@ function Kondisi({selected, handleselected}) {
                             <>
                                 <p key={index} className='text-xl font-bold text-center'>{val.title}</p>
                                 <p>{val.description}</p>
-                                <div className='flex w-full flex-col lg:flex-row lg:justify-center'>
+                                <div className='flex w-full flex-col lg:flex-row lg:flex-wrap lg:justify-center'>
                                 {val.images&&val.images.map((img,index)=>(
                                     <div key={index} className='w-72 h-64 self-center mx-1 my-1 lg:mx-2 lg:my-2 rounded-md relative'>
                                         <img className={`w-72 h-64 rounded-md`} src={img.url} />

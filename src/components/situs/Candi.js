@@ -35,10 +35,10 @@ function Candi({selected, handleselected}) {
                             <>
                                 <p key={index} className='text-xl font-bold text-center'>{val.title}</p>
                                 <p>{val.description}</p>
-                                <div className='flex w-full flex-col lg:flex-row lg:justify-center'>
+                                <div className='flex w-full flex-col lg:flex-row lg:flex-wrap lg:justify-center'>
                                 {val.images&&val.images.map((img,index)=>(
-                                    <div key={index} className='w-72 h-64 self-center my-1 ml-2 rounded-md relative'>
-                                        <img className={`w-72 h-64 rounded-md`} src={img.url} />
+                                    <div key={index} className='w-72 h-60 self-center my-1 ml-2 rounded-md relative'>
+                                        <img className={`w-72 h-60 rounded-md`} src={img.url} />
                                         <div className='text-sm text-black font-semibold absolute top-1 text-center rounded-full bg-white px-1'>{img.name}</div>
                                     </div>
                                 ))}

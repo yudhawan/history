@@ -29,7 +29,7 @@ function TheKings() {
           <div className='font-semibold text-white text-xl bg-[#2E8A19] px-2 rounded-md'>Section 4: Raja-raja</div>
         </div>
         <div className={`${kings?'block':'hidden'} relative self-start px-3 py-1 lg:py-1 lg:px-3 rounded-full bg-[#2E8A19] order-first text-white cursor-pointer`} onClick={()=> setkings(!kings)}><FontAwesomeIcon icon={faAngleLeft} size={'lg'} /> </div>
-        <div className={`w-full flex flex-wrap justify-center items-center lg:space-y-0 lg:space-x-6 lg:flex-row px-2 py-2 bg-slate-200 rounded-md `}>
+        <div className={`w-full flex flex-wrap justify-center items-center space-y-1 lg:space-y-0 lg:space-x-6 lg:flex-row px-2 py-2 bg-slate-200 rounded-md `}>
           {kings?<>
             <div className='cursor-pointer active:animate-ping space-y-1 mx-1 my-1 flex flex-col items-center justify-center' onClick={()=>setselected(options[0])}>
               <div className='w-16 h-16 lg:w-32 lg:h-32 bg-slate-700 rounded-full'>
@@ -56,7 +56,7 @@ function TheKings() {
               <div className='bg-blue-700 text-white py-1 px-2 text-center rounded-sm font-semibold w-36'>Kertanegara</div>
             </div>
           </>:<>
-            <div className='cursor-pointer active:animate-ping flex flex-col space-y-1 justify-center items-center' onClick={()=> setkings(!kings)}>
+            <div className='cursor-pointer active:animate-ping flex flex-col justify-center items-center' onClick={()=> setkings(!kings)}>
               <div className='w-60 h-32'>
                 <img src={Kings} className='w-full h-full rounded-sm'/>
               </div>
