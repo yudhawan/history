@@ -56,7 +56,7 @@ function TheKings() {
               <div className='bg-blue-700 text-white py-1 px-2 text-center rounded-sm font-semibold w-36'>Kertanegara</div>
             </div>
           </>:<>
-            <div className='cursor-pointer active:animate-ping flex flex-col justify-center items-center' onClick={()=> setkings(!kings)}>
+            <div className='cursor-pointer active:animate-ping flex flex-col space-y-1 justify-center items-center' onClick={()=> setkings(!kings)}>
               <div className='w-60 h-32'>
                 <img src={Kings} className='w-full h-full rounded-sm'/>
               </div>
