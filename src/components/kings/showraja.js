@@ -19,6 +19,7 @@ function Showraja({raja, handleRaja}) {
                                     <div key={index} className='w-72 h-64 my-1 self-center ml-2 rounded-md relative'>
                                         <img className={`w-72 h-64 rounded-md`} src={img.url} />
                                         <div className='text-sm font-semibold absolute top-1 text-center rounded-full bg-white px-1'>{img.name}</div>
+                                        <div className='text-xs absolute bottom-0 right-0 text center rounded-md px-[1px] bg-white '>Sumber: {img.sumber}</div>
                                     </div>
                                 ))}
                                 </div>
