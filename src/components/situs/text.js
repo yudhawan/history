@@ -50,6 +50,6 @@ export const kondisi = [
     {
         title:'Candi Sumberawan',
         description:"Candi Sumberawan merupakan salah satu situs yang unik. Candi ini tidak memiliki relief maupun arca di di dalamnya, sehingga bangunan candi ini hanya berbentuk stupa saja. Meski demikian, area situs ini tetap ramai dikunjungi pengunjung. Sebagian besar pengunjung yang datang ke sini adalah untuk melihat telaga atau sumber air yang ada di sekitar candi. Masyarakat sekitar percaya bahwa air yang muncul dari situ adalah air suci.",
-        images:[{name:'Candi Sumberawan',sumber:'https://www.puteramentari.com/',url:'https://www.puteramentari.com/wp-content/uploads/2020/07/Candi-Sumberawan-Stupa-di-Jawa-Timur.jpg'},{name:'Sumber Air Suci', sumber:'JESIAMAR',url: sumberair}]
+        images:[{name:'Candi Sumberawan',sumber:'https://www.puteramentari.com/',url:'https://www.puteramentari.com/wp-content/uploads/2020/07/Candi-Sumberawan-Stupa-di-Jawa-Timur.jpg'},{name:'Sumber Air Suci', sumber:'Sulistyo, W.D dkk (2020:97)',url: sumberair}]
     },
 ]
